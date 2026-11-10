@@ -1,0 +1,158 @@
+body{
+    background-image:url(images/4srt.jpg);
+    background-size: cover;
+    padding:0;
+    margin:0;
+}
+
+
+h1 { color:rgb(75, 4, 4);
+text-align: center;
+}
+p{
+text-align:center;
+}
+
+.fortune {
+    background-image: url(images/9srt.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    color: #930202;
+    text-align: center;
+    margin:0;
+    justify-content:center;
+    align-items:flex-end;
+    background-repeat: no-repeat;
+    height:25vh;
+    display:flex;
+    box-sizing:border-box;
+    overflow:hidden;
+
+
+
+}
+
+.marquee {
+    animation:marquee 8s linear infinite,
+              glow 1s ease-in-out infinite alternate;
+
+}
+             @keyframes marquee{
+                 from{
+                      transform:translateX(100%);
+                         }
+                 to  {
+                      transform:translatex(-100%);
+                         }
+    
+
+
+
+}
+             @keyframes glow{
+    
+                 from{
+                      text-shadow:0 0 5px #0fff00,
+                                 0 0 10px #0fff00;
+                         }
+
+                 to{
+                     text-shadow:0 0 15px #ff0000,
+                                 0 0 20px #ffff00,
+                                 0 0 30px #fffff0;
+                         }
+
+}
+
+
+.tabs{
+     display:inline-table;
+     gap:80px;
+     background-color: #fffff0;
+
+
+}
+.tabs button{
+    background-color: #fdfcfc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: -webkit-grabbing;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+    color:#6f1111;
+    flex:1;
+
+}
+
+
+
+.tabs button:hover{
+    background-color: #ff0000;
+    color:#fff;
+}
+
+.html{
+    text-align: left;
+    background-color:#2352be;
+    display:none;
+    padding:50px;
+    background-color: #190a87;
+    background-size:cover;
+    background-image: url(images/10srt.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    align-items:left;
+    align-content:left;
+    height:15vh;
+    
+
+
+}
+
+
+
+
+
+.css{
+    text-align: left;
+    display:none;
+    padding:50px;
+    background-color: #3a0e0e;
+    background-size:cover;
+    background-image: url(images/12srt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:auto;
+}
+
+p2{
+    text-align: center;
+}
+    
+
+
+
+
+.js{
+    text-align: left;
+    display:none;
+    padding:50px;
+    background-color: #c28140;
+    background-size:cover;
+    background-image: url(images/8srt.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height:auto;
+
+}
+
+p3{
+    text-align: center;
+}
+
+
+#html{
+    display:block;
+}
